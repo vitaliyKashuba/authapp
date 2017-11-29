@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * HashMap used to avoid username duplicates
+ * this class is converter between list of strings key[separator]value and hashMap
+ */
 public class CollectionConverter
 {
     private static final String SEPARATOR = "__";
